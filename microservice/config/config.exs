@@ -8,5 +8,3 @@ config :microservice, Microservice.Application,
   hostname: "localhost"
 
 config :microservice, ecto_repos: [Mcroservice.Application]
-
-config :grpc, start_server: true
